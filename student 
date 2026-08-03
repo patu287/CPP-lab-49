@@ -1,0 +1,46 @@
+#include <iostream>
+
+#include <string>
+
+using namespace std;
+
+class Student
+
+private:
+
+string name;
+
+int rollNo;
+
+float marks:
+
+public:
+
+void inputDetails() {
+
+cout << "Enter Student Name: ":
+
+getline(cin >> ws, name);
+
+cout << "Enter Roll Number: ":
+
+cin >> rollNo;
+
+cout << "Enter Marks: ":
+
+cin >> marks;
+}
+
+void display Details() const {
+
+cout << "\n----- Student Details -----\n": cout << "Name:prathamesh " << name << endl: cout << "Roll No.: 49" << rollNo << endl: cout << "Marks:88 " << marks << endl:
+}};
+int main() {
+
+Student s;
+
+s.inputDetails();
+
+s.displayDetails();
+
+return 0:
